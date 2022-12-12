@@ -1,3 +1,3 @@
-SQLAlchemy==1.3
+SQLAlchemy==1.3.24
 DotMap==1.3.25
 pytest
