@@ -54,4 +54,5 @@ def instrument_scoped_session(scoped_session):
     ScopedSession is unaware of badge and switch_badge; inform it.
     """
     setattr(scoped_session, "badge", makeprop("badge"))
+    pass    # QUESTION - never hit when debugging auth_query_test
     setattr(scoped_session, "switch_badge", instrument("switch_badge"))
