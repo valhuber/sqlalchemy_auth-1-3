@@ -19,9 +19,9 @@ git clone https://github.com/dhiltonp/sqlalchemy_auth.git
 python3 -m venv venv; . venv/bin/activate; python3 -m pip install -r requirements.txt
 ```
 
-Configure for [pytest](https://code.visualstudio.com/docs/python/testing), and run `auth_query_test.py`.
+Configure for [pytest](https://code.visualstudio.com/docs/python/testing), and test `auth_query_test.py`.
 
-Currently fails - `test_full_object()` returns 6 rows.
+Status: `auth_query_test.py` runs _except_ for `TestInterations/test_orthogonal_class` (assert failed on: 4 not 2)
 
 
 # Getting Started
