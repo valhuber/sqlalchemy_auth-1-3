@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+		"workbench.colorTheme": "One Dark Space Gray"    
+    },
+    "python.testing.pytestArgs": [
+      "sqlalchemy_auth"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
