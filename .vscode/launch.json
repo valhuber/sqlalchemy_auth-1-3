@@ -11,6 +11,22 @@
             "justMyCode": false,
         },
         {
+            "name": "Debug Tests",
+            "type": "python",
+            "request": "test",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}",
+            "justMyCode": false
+        },        
+        {
+            "name": "Debug auth_query_test",
+            "type": "python",
+            "request": "test",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}",
+            "justMyCode": false
+        },        
+        {
             "name": "auth_query_test",
             "type": "python",
             "request": "launch",
